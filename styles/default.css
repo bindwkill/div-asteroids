@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'digital-7';
+  src: url('../fonts/digital-7.ttf');
+}
+
+img {
+  width: 2rem;
+  height: auto;
+}
+
+input {
+  width: 100%;
+  height: auto;
+}
+
+.display {
+  display: flexbox;
+  width: 100%;
+  height: 95%;
+  cursor: url(../imgs/crosshair.png), crosshair;
+  user-select: none;
+}
+
+.score {
+  background: none;
+  font-size: 4rem;
+  text-align: center;
+  border: 0;
+  color: midnightblue;
+  font-family: 'digital-7', sans-serif;
+}
+
+.popup {
+  position: absolute;
+  top: 33%;
+  width: 100%;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  color: white
+}
